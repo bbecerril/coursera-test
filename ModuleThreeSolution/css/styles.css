@@ -1,0 +1,66 @@
+body {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(194, 194, 147);
+}
+
+/** HEADER **/
+#header-nav{
+    background-color: rgb(78, 52, 4);
+    border-radius: 0;
+    border: 0 0 2px 0;
+    border-color: black;
+    
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1.5px solid #000 !important;
+  }
+
+.navbar-brand h1{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    line-height: .75;
+
+  }
+  #nav-list{
+    border:1px solid;
+    border-color: #000;
+  }
+  #nav-list:nth-child(3){
+    border-bottom:0;
+  }
+  #nav-list li{
+        background: rgb(78, 52, 4);
+        border-bottom:1px solid;
+        border-color: #000;
+  }
+
+  #nav-list li:nth-child(3){
+    border-bottom:0;
+  }
+  .main-title{
+    font-weight: bold;
+    margin-top: -3px;
+  }
+  .menu{
+    margin:15px; 
+  }
+  .menu-item{
+    margin-bottom: 20px;
+    background:rgb(78, 52, 4);
+    padding: 10px;
+    height: 1500px;
+  }
+  .menu-item h4 {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .menu-item p{
+    font-weight:600;
+    font-size: .9em;
+    padding: 5px 10px;
+  }
