@@ -1,0 +1,19 @@
+body{
+    background-color: blanchedalmond;
+}
+
+#title{
+    padding-top: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+#message{
+    padding-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
